@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Catálogo de Discos de Vinil</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Catálogo de Discos de Vinil</h1>
+    <form id="form">
+      <input type="text" id="artista" placeholder="Nome do Artista" required>
+      <input type="text" id="album" placeholder="Nome do Álbum" required>
+      <input type="number" id="ano" placeholder="Ano" required>
+      <button type="submit" id="btn-adicionar">Adicionar</button>
+      <button type="button" id="btn-editar" style="display: none;">Editar</button>
+    </form>
+    <ul id="lista-discos"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
