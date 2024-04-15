@@ -65,7 +65,6 @@ function editarDisco(index) {
     });
 }
   
-
 function excluirDisco(index) {
   discos.splice(index, 1);
   atualizarListaDiscos();
