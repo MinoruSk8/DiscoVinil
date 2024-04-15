@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+body {
+  background-color: #656161; /* Cor de fundo suave */
+  font-family: 'Rock Salt', cursive; /* Fonte vintage */
+}
+
+.container {
+  background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(206, 106, 229, 0.1); /* Sombra suave */
+}
+
+h1 {
+  color: #3d3d3d; /* Cor do título */
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  margin-bottom: 10px;
+  display: block;
+  width: calc(100% - 16px); /* Largura ajustada */
+  padding: 8px;
+  border: 1px solid #ccc; /* Borda suave */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Cor de fundo */
+}
+
+button {
+  background-color: #3d3d3d; /* Cor do botão */
+  color: #fff; /* Cor do texto do botão */
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #2c2c2c; /* Cor do botão ao passar o mouse */
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+ul2 {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  border-bottom: 1px solid #ccc; /* Borda inferior suave */
+  padding: 10px 0;
+}
+
+li:last-child {
+  border-bottom: none;
+}
+
+#btn-editar {
+  background-color: #fdd835; /* Cor de destaque para o botão de editar */
+  color: #3d3d3d; /* Cor do texto do botão de editar */
+}
+
+#btn-editar:hover {
+  background-color: #fbc02d; /* Cor de destaque ao passar o mouse no botão de editar */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+  }
